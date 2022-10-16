@@ -1,0 +1,135 @@
+body {
+    width: 414px;
+    background-color: #e5e5e5;
+}
+
+.container2 {
+    margin-top: 123px;
+    margin-bottom: 108px;
+}
+
+.cabecalho {
+    height: 92px;
+    width: 100%;
+    background-color: #cf2b2b;
+    padding-left: 21px;
+    padding-bottom: 18px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.cabecalho h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 54.63px;
+    color: #ffffff;
+}
+
+.cabecalho h2 {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.container h4 {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Righteous';
+    line-height: 32.28px;
+    color: #333333;
+    margin-left: 16px;
+    margin-top: 31px;
+}
+
+.pedido {
+    height: 216px;
+    width: 172px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    background-color: #ffffff;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 18px;
+    padding-bottom: 13px;
+    margin-left: 16px;
+}
+
+.pedido img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+
+.pedido h1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #333333;
+    margin-top: 8px;
+    font-family: 'Roboto';
+}
+
+.pedido h2 {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17.58px;
+    color: #a6a6a6;
+    margin-top: 4px;
+       font-family: 'Roboto';
+}
+
+.pedido h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #000000;
+    margin-top: 5px;
+    font-family: 'Roboto';
+}
+
+.lista {
+    display: flex;
+    width: 414px;
+    height: 216px;
+    overflow-x: scroll;
+    margin: 17px 0px;
+}
+
+.barra-inferior {
+    height: 92px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.buttom {
+    height: 61px;
+    width: 364px;
+    background-color: #cbcbcb;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 8px;
+}
